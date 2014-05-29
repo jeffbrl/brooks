@@ -1,0 +1,344 @@
+/*   
+Theme Name: Brooks Consulting LLC
+Theme URI: http://brooksconsulting-llc.com/
+Description: Brooks Custom Theme -- WordPress v3.0.1
+Author: Jeff Loughridge
+Version: 3
+*/
+
+* {
+	margin: 0;
+}
+
+html {
+/*	background-color: #c0c0c0; */
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: #454545;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#page-wrap {
+/*	width: 960px;  */
+/*	margin: 0 auto; */
+	padding: 0;
+/*	background: url(images/bg.png) repeat-y #c0c0c0; */
+/*	background-color: white; */
+}
+
+
+#content-wrap {
+	width: 900px; 
+	margin: 0 auto; 
+	padding: 0;
+
+}
+
+#content {
+	width: 100%;
+	margin: 30px 0 0 0;
+	padding: 0;
+}
+
+/*  Header Styles */
+
+#header.group {
+/*	width: 760px; */
+	margin: 0;
+	padding: 0;
+}
+
+#branding {
+	height: 110px;
+	/*width: 760px; */
+/*	border-bottom: 8px solid #125c8d; */
+	border-bottom: 8px solid #115B8C;
+	position: relative;
+	margin: 0;
+}
+
+h2.bTag {
+	padding-bottom: 25px;
+	margin-left: 30px;
+}
+
+div.description {
+	text-indent: -9999px;
+}
+
+h1 {
+	color: #0f5b8c; 
+	background: url(/assets/images/logo.jpg) no-repeat;
+	height: 83px;
+	width: 426px;
+	text-indent: -9999px;
+	z-index: 1;
+	position: absolute;
+	top: 13px;
+	left: 10px;
+	margin: 0;
+	padding: 0;	
+}
+
+/* Navigation */
+
+.menu-main-nav-menu-container {
+	/*width: 760px; */
+	height: 45px;
+	margin: 0;
+	padding-left: 5%;
+	background-color: #115B8C; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: 1px solid #ffffff;
+	text-align: left;
+}
+
+ul#menu-main-nav-menu.menu {
+	list-style-type: none;
+	color: #fff; 
+	margin: 0;
+	padding: 0;
+}
+
+li.menu-item {
+	padding: 0;
+	font-size: 120%;
+	font-weight: bold;
+	display: inline;
+	line-height: 45px;
+}
+
+li.menu-item a, li.menu-item a:visited {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 12px 10px;
+}
+
+li.menu-item a:hover, li.menu-item a:active {
+/*	color: #66ccff; */
+	color: #000000;
+}
+
+/* Content Styles */
+
+#main.group {
+	width: 600px; 
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#main h2, #main h3, #main p {
+	color: #444;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#main.group p {
+	font: 85%/150% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 0px 30px 0px 30px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+/*
+#main.group ol,ol li {
+	font: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	/* padding: 0px 30px 0px 30px; */
+	margin-bottom: 10px;
+}
+
+#main.group ul,ul li {
+	font: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	/* padding: 0px 30px 0px 30px; */
+	margin-bottom: 10px;
+}
+*/
+
+
+/*
+#main.group .post ul li {
+	list-style-type: none;
+}
+
+*/
+
+/*
+#main.group .post ul li a:link, #main.group .post ul li a:visited, #main.group .post ul li a:hover, #main.group .post ul li a:active {
+	color: 0000ef; 
+	font: 85%/145% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+*/
+
+.post {
+	padding-bottom: 30px;
+}
+	
+#main h2 {
+/*	color: #444; */
+	color: #000000;
+	font-size: 16px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+/* Sidebar Styles */
+
+div#sidebar.group {
+	width: 229px;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+div#sidebar.group ul {
+	list-style-type: none;
+}
+
+div#sidebar.group h2 {
+/*	color: #444; */
+	color: #00297A;
+	font-size: 16px;
+	font-family: ;
+}
+
+div#sidebar.group ul {
+	padding-left: 10px;
+	margin: 0;
+}
+
+#sidebar.group .widget h2 {
+	color: #444;
+	padding-left: 25px;
+	font-size: 16px;
+}
+
+#sidebar.group .widget ul {
+	padding-bottom: 20px;
+}
+
+div#sidebar.group ul li a {
+	color: #444;
+}
+
+div#sidebar.group ul li {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+div.textwidget {
+	width: 228px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.textwidget p {
+	color: #444;
+	font: 80% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+/* Sidebar Image Styles */
+
+img.network {
+	width: 221px;
+	height: 296px;
+
+/* added by Jeff L */
+	padding: 1px;
+	border:1px solid #000099;
+}
+
+img.li {
+	padding-top: 10px;
+	border-style: none;
+}
+
+
+ul.services {
+	font: 80%/150% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-bottom: 30px;
+}
+
+ul.services li {
+	color: #454545;
+	border-style:  none;
+}
+
+.single h2 {
+	color: #444;
+	font-size: 16px;
+}
+
+div#main.group .post ul {
+	padding-left: 60px;
+	padding-bottom: 5px;
+}
+
+div#main.group .post ol {
+        padding-left: 60px;
+	padding-bottom: 5px;
+}
+
+
+div#main.group .post ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+	color: #444;
+	font: 90%/150% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+body.home #main.group .post ul {
+	padding: 0 0 0 40px;
+	margin: 0;
+}
+
+body.home #main.group .post ul li {
+	list-style-type: none;
+	font: 100%/150% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#footer.group {
+	bottom:0;
+	/* width: 760px; */
+	/* content: inherit !important; */
+	/* height: 40px; */ 
+	/*background-color: white; */
+	margin: 0;
+/*	border-top: 3px solid #115b8c; */
+	clear: both;
+}
+
+div#footer.group p {
+	color: black;
+	text-align: center;
+	font: 12px/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.post:last-child {
+	padding-bottom: 40px;
+}
+
+/* Contact Page Styles */
+
+ul.contact {
+	list-style-type: none;
+	padding: 20px 0 20px 60px;
+}
+
+ul.contact li {
+	color: #444;
+	font: 90%/150% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
