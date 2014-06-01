@@ -2,8 +2,8 @@
 title: Brooks Consulting LLC
 email: jeffl@brooksconsulting-llc.com
 description: Brooks Consulting LLC is your source for top tier IP wireline and wireless expertise translated into positive business results.
-baseurl: "brooks.s3-website-us-east-1.amazonaws.com"
-url: "brooks.s3-website-us-east-1.amazonaws.com"
+baseurl: "brooksconsulting-llc.com"
+url: "brooksconsulting-llc.com"
 
 # Build settings
 markdown: kramdown
